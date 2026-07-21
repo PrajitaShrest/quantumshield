@@ -1,4 +1,4 @@
-# QuantumShield 🛡️
+# QuantumShield
 **Helping Australian healthcare SMEs get ready for the post-quantum threat — before it's too late.**
 
 ## Problem Statement
