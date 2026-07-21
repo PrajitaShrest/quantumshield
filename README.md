@@ -26,7 +26,7 @@ QuantumShield is a web-based self-assessment tool that allows healthcare SMEs to
 ## Setup Instructions
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/quantumshield.git
+git clone https://github.com/<PrajitaShrest>/quantumshield.git
 cd quantumshield
 
 # Install dependencies
@@ -36,3 +36,22 @@ npm install
 npm run dev
 ```
 Environment variables required (see `.env.example`):
+
+## Setup Instructions
+> ⚠️ Note: This project is currently at the proposal/MVP-planning stage. 
+> The instructions below reflect the planned setup for Part B development.
+
+```bash
+# Clone the repository
+git clone https://github.com/<PrajitaShrest>/quantumshield.git
+cd quantumshield
+
+# Install dependencies (once implementation begins)
+npm install
+
+# Environment variables (planned)
+DATABASE_URL=       # PostgreSQL or SQLite connection string, TBD
+PORT=3000
+```
+
+**Planned database:** SQLite for MVP simplicity, with potential migration to PostgreSQL if scaling is required in Part B.
