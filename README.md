@@ -37,21 +37,25 @@ npm run dev
 ```
 Environment variables required (see `.env.example`):
 
-## Setup Instructions
-> ⚠️ Note: This project is currently at the proposal/MVP-planning stage. 
-> The instructions below reflect the planned setup for Part B development.
+## Project Roadmap
+| Phase | Milestone | Timeframe |
+|---|---|---|
+| Phase 1 | Discovery, industry review, gap analysis | Weeks 1–4 (Part A) |
+| Phase 2 | Wireframes, assessment logic design, pitch deck | Weeks 5–8 (Part A) |
+| Phase 3 | MVP build: questionnaire + scoring engine | Weeks 1–5 (Part B) |
+| Phase 4 | User testing with healthcare SME stakeholders | Weeks 6–8 (Part B) |
+| Phase 5 | Final report, refined MVP, demo | Weeks 9–10 (Part B) |
 
-```bash
-# Clone the repository
-git clone https://github.com/<PrajitaShrest>/quantumshield.git
-cd quantumshield
+## Ethics / Privacy / AI Use
+- No real patient health data is collected or stored; all assessment inputs relate to organisational security posture, not individual health records.
+- Any future data collection will comply with the *Privacy Act 1988* (APPs) and, where relevant, the *My Health Records Act 2012*.
+- Generative AI tools (including Claude) were used to support research synthesis, drafting, and diagram creation during project development.
 
-# Install dependencies (once implementation begins)
-npm install
+## Sustainability
+- Digital-first delivery model minimises physical resource use.
+- Designed for long-term reuse as an open, low-cost tool that reduces the need for SMEs to purchase or rebuild security assessments repeatedly.
+- Open-source licensing (MIT) supports community maintenance beyond the trimester.
 
-# Environment variables (planned)
-DATABASE_URL=       # PostgreSQL or SQLite connection string, TBD
-PORT=3000
-```
-
-**Planned database:** SQLite for MVP simplicity, with potential migration to PostgreSQL if scaling is required in Part B.
+## Contact
+Prajita Shrestha - shea25057@students.shea.edu.au
+Master of Information Technology (Advanced), Startup MVP Pathway — PROF909
